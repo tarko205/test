@@ -14,5 +14,5 @@ RUN set -x && \
 
 COPY supervisord.conf /etc/supervisord.conf
 
-EXPOSE 80
+EXPOSE 80 22
 CMD ["/usr/bin/supervisord"]
